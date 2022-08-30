@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UST PROJECT</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <div class="headbar">
+        <div class="headcontainer">
+            <div class="ustomniimage"><img src="/images/UST Omni (non-optimized).png" alt="omniimage"></div>
+            <div class="accounts2">
+                <div class="warning2">
+                    <div> <a href="#"><img src="images/warning.png" alt="warning"></a></div>
+                    <div class="circlered"></div>
+                </div>
+                <div class="warning2">
+                    <div><a href="#"><img src="images/notification.png" alt="notification"></a></div>
+                    <div class="circlered"></div>
+                </div>
+                <div class="tabviewaccounts">
+                    <div><a href="#" class="profile2">
+                            <p>DHIVIJABABU</p>
+                        </a></div>
+                    <div>
+                        <a href="#"><img src="images/profile.png" alt="profile" width="30px" height="30px"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="hamburgermenu">
+            <div class="navdirection">
+                <a href="#">
+                    <div class="navigationblock active3">
+                        <div><img src="images/Home.jpg" alt="Dashboard"></div>
+                        <div class="mobilenav">Dashboard</div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="navigationblock">
+                        <div><img src="images/Shipment_Mgmt.png" alt="Shipment"></div>
+                        <div class="mobilenav">Shipment</div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="navigationblock">
+                        <div><img src="images/reports.png" alt="Reports"></div>
+                        <div class="mobilenav">Reports</div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="navigationblock">
+                        <div><img src="images/contoltower.png" alt="Control Tower"></div>
+                        <div class="mobilenav">Control Tower</div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="navigationblock">
+                        <div><img src="images/actionpanel.png" alt="actionpanel"></div>
+                        <div class="mobilenav">Action Panel</div>
+                    </div>
+                </a>
+            </div>
+
+        </ul>
+        <button class="hamburger">
+            <i class="openmenu">&#9776;</i>
+            <i class="closemenu">&#10006;</i>
+        </button>
+
+    </div>
+    <header>
+        <div class="ustlogo"><img src="images/UST Omni (non-optimized).png" alt="OMNILOGO" /></div>
+        <nav class="headernavigation">
+            <ul>
+                <li class="activedash"><img class="headernavimages" src="images/Home.jpg" alt="DASHBOARD" /><a
+                        href="#">Dashboard</a></li>
+                <li><img class="headernavimages" src="images/Shipment_Mgmt.png" alt="SHIPMENT" /><a
+                        href="#">Shipments</a></li>
+                <li><img class="headernavimages" src="images/reports.png" alt="REPORTS" /><a href="#">Reports</a></li>
+                <li><img class="headernavimages" src="images/contoltower.png" alt="CONTROLTOWER" /><a href="#">Control
+                        Tower</a></li>
+                <li><img class="headernavimages" src="images/actionpanel.png" alt="ACTIONPANEL " /><a href="#">Action
+                        Panel</a> </li>
+            </ul>
+        </nav>
+        <div class="accounts">
+            <div> <img class="warning" src="images/warning.png" alt="WARNING" /></div>
+            <div><img class="notification" src="images/notification.png" alt="NOTIFICATION" /></div>
+            <div class="profile-name">DHIVIJABABU</div>
+            <div><img class="profile" src="images/profile.png" width="30px" height="30px" alt="profile_pic" /></div>
+           
+    </header>
+
+    <div class="mainbodycontainer">
+        <div id="g-scroll" class="carouselcardscroll">
+          <div class="carousel">
+            <div id="prev" class="prev" onclick="prev()">
+              <img src="images/carouselleft.png" alt="" width="20px" />
+            </div>
+            <div id="next" class="next" onclick="next()">
+              <img src="images/carouselright.png" alt="" width="6px" />
+            </div>
+          </div>
+          <div id="action-scroll" class="overviewcontainer">
+            <div class="overview-card">
+              <div class="text">
+                <div class="texttop">
+                  Action to Take
+                  <img
+                    src="images/info@2x.png"
+                    alt="info"
+                    width="22px"
+                    height="20px"
+                  />
+                </div>
+                <div class="textbottom">24</div>
+              </div>
+              <div class="image">
+                <img src="images/circleaction.png" alt="info" />
+              </div>
+            </div>
+            <div class="overview-card">
+              <div class="text">
+                <div class="texttop">
+                  Pending Approvals
+                  <img
+                    src="images/info@2x.png"
+                    alt="info"
+                    width="22px"
+                    height="20px"
+                  />
+                </div>
+                <div class="textbottom">13</div>
+              </div>
+              <div class="image">
+                <img src="images/clock.png" alt="info" />
+              </div>
+            </div>
+            <div class="overview-card">
+              <div class="text">
+                <div class="texttop">
+                  Delivery in Full
+                  <img
+                    src="images/info@2x.png"
+                    alt="info"
+                    width="22px"
+                    height="20px"
+                  />
+                </div>
+                <div class="textbottom last7days">
+                  97%
+                  <div class="lastdays">Last 7 days</div>
+                </div>
+              </div>
+              <div class="image">
+                <img src="images/delivery.png" alt="info" />
+              </div>
+            </div>
+            <div class="overview-card">
+              <div class="text">
+                <div class="inside">
+                  <div>Inbound Freight as % of COGS<br /></div>
+                  <img
+                    src="images/info@2x.png"
+                    alt="info"
+                    width="20px"
+                    height="15px"
+                  />
+                </div>
+                <div class="smalltext">
+                  <div>
+                    <p>Frozen</p>
+                    <div class="color1"></div>
+                    5%
+                  </div>
+                  <div>
+                    <p>Pershable</p>
+                    <div class="color2"></div>
+                    3%
+                  </div>
+                  <div>
+                    <p>Fresh</p>
+                    <div class="color3"></div>
+                    6%
+                  </div>
+                  <div>
+                    <p>Dry</p>
+                    <div class="color4"></div>
+                    10%
+                  </div>
+                </div>
+              </div>
+              <div class="imagecard4">
+                <img src="images/cubegoods.png" alt="cube" width="43px" />
+              </div>
+            </div>
+      
+            <div class="overview-card">
+              <div class="text">
+                <div class="texttop">
+                  On Time Delivery
+                  <img
+                    src="images/info@2x.png"
+                    alt="info"
+                    width="22px"
+                    height="20px"
+                  />
+                </div>
+                <div class="textbottom last7days">
+                  93%
+                  <div class="lastdays">Last 7 days</div>
+                </div>
+              </div>
+              <div class="image">
+                <img src="images/check-circle.png" alt="info" />
+              </div>
+            </div>
+      
+            <div class="overview-card">
+              <div class="text">
+                <div class="texttop">
+                  Cost/Pound/Mile
+                  <img
+                    src="images/info@2x.png"
+                    alt="info"
+                    width="22px"
+                    height="20px"
+                  />
+                </div>
+                <div class="textbottom last7days">
+                  $1.45
+                  <div class="lastdays">Last 7 days</div>
+                </div>
+              </div>
+              <div class="image">
+                <img src="images/costpile.png" alt="info" />
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="gridscrolling">
+            <div class="carosel" id="carosel" onclick="plusSlides(-1)">
+                <div class="prevbutton" id="prev">
+                    <p>
+                        < </p>
+                </div>
+            </div>
+            <div class="carosel_1" id="carosel_1">
+                <div class="prevbutton_1" id="prev" onclick="plusSlides(1)">
+                    <p>></p>
+                </div>
+            </div>
+            <div class="container2_mobile">
+                <div class="carouselcard" id="carouselcard">
+                    <div class="text">
+                        <div class="texttop">
+                            Action to Take
+                            <img src="images/info@2x.png" alt="info" width="22px" height="20px">
+                        </div>
+                        <div class="textbottom">
+                            24
+                        </div>
+                    </div>
+                    <div class="image"><img src="images/circleaction.png" alt="info"></div>
+                </div>
+                <div class="carouselcard">
+                    <div class="text">
+                        <div class="texttop">Pending Approvals
+                            <img src="images/info@2x.png" alt="info" width="22px" height="20px">
+                        </div>
+                        <div class="textbottom">13</div>
+                    </div>
+                    <div class="image">
+                        <img src="images/clock.png" alt="info">
+                    </div>
+                </div>
+
+                <div class="carouselcard">
+                    <div class="text">
+                        <div class="texttop">Delivery in Full
+                            <img src="images/info@2x.png" alt="info" width="22px" height="20px">
+                        </div>
+                        <div class="textbottom last7days">97%
+                            <div class="lastdays">Last 7 days</div>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="images/delivery.png" alt="info">
+                    </div>
+                </div>
+
+                <div class="carouselcard">
+                    <div class="text">
+                        <div class="inside">
+                            <div>Inbound Freight as % of COGS<br></div>
+                            <img src="images/info@2x.png" alt="info" width="20px" height="15px">
+                        </div>
+                        <div class="smalltext">
+                            <div>
+                                <p>Frozen</p>
+                                <div class="color1"></div>5%
+                            </div>
+                            <div>
+                                <p>Pershable</p>
+                                <div class="color2"></div>3%
+                            </div>
+                            <div>
+                                <p>Fresh</p>
+                                <div class="color3"></div>6%
+                            </div>
+                            <div>
+                                <p>Dry</p>
+                                <div class="color4"></div>10%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="imagecard4"><img src="images/cubegoods.png" alt="cube" width="43px"></div>
+                </div>
+
+                <div class="carouselcard">
+                    <div class="text">
+                        <div class="texttop">On Time Delivery
+                            <img src="images/info@2x.png" alt="info" width="22px" height="20px">
+                        </div>
+                        <div class="textbottom last7days">93%
+                            <div class="lastdays">Last 7 days</div>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="images/check-circle.png" alt="info">
+                    </div>
+                </div>
+
+                <div class="carouselcard">
+                    <div class="text">
+                        <div class="texttop">Cost/Pound/Mile
+                            <img src="images/info@2x.png" alt="info" width="22px" height="20px">
+                        </div>
+                        <div class="textbottom last7days">$1.45
+                            <div class="lastdays">Last 7 days</div>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="images/costpile.png" alt="info">
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+        <div class="bodybottom">
+            <div class="watchlistcontainer">
+                <div class="shipmentheader">
+                    <div class="bodynavigation">
+                        <div class="bodytabs">
+                            <div class="headtabs1"><a href="#">Inbound</a></div>
+                            <div class="headtabs"><a href="#">Outbound</a></div>
+                            <div class="headtabs"><a href="#">WatchList</a></div>
+                        </div>
+                        <div class="viewshipment-desktop">
+                            view all shipments<img src="images/arrow.png" alt="arrow">
+                        </div>
+                        <div class="viewshipment"><button>view all</button>
+                        </div>
+                    </div>
+                    <div class="tabs-search-conatiner">
+                        <div class="tabs-container">
+                            <div class="tab  active2">All <b>(25)</b></div>
+                            <div class="tab2">
+                                Delayed <b>(10)</b>
+                            </div>
+                            <div class="tab">
+                                Early <b>(6)</b>
+                            </div>
+                            <div class="tab">
+                                Resheduled <b>(2)</b>
+                            </div>
+                            <div class="tab">
+                                Under Review <b>(7)</b>
+                            </div>
+                            <div class="tab">
+                                On Time <b>(7)</b>
+                            </div>
+                        </div>
+
+                        <div class="tabscrollcontainer" id="tabsscroll" >
+                            <div class="tabsscroll" >
+
+                                <div id="prevscrollbutton" class="mob_scroll_prev" onclick="prevSearch()"><img src="images/scrollleftt.png" alt="scrollprev"></div>
+                                <div id="nextscrollbutton" class="mob_scroll" onclick="nextSearch()"><img src="images/scrollrightt.png" alt="scrollnext"></div>
+
+                                <div class="tab  active2">All <b>(25)</b></div>
+                                <div class="tab2">
+                                    Delayed <b>(10)</b>
+                                </div>
+                                <div class="tab">
+                                    Early <b>(6)</b>
+                                </div>
+                                <div class="tab">
+                                    Resheduled <b>(2)</b>
+                                </div>
+                                <div class="tab">
+                                    Under Review <b>(7)</b>
+                                </div>
+                                <div class="tab">
+                                    On Time <b>(7)</b>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="searching">
+                            <img src="images/searchicon.png" alt="search">
+                            <button class="searchingbutton">
+                            <img src="images/search.png" alt="search">
+                            </button>
+                            <input id="searchbar" onkeyup="searchshipment()" class="searchingbox" type="text"
+                                name="search"
+                                placeholder="Search by: Shipment ID, Origin, Destination, Product category, Vendor">
+                        </div>
+                        <div class="searchingmob">
+                            <button class="searchingbutton">
+                                <img src="images/search.png" alt="search">
+                            </button>
+                            <input id="searchmobile" onkeyup="searchshipmentmobile()" class="searchingbox" type="text"
+                                name="search" placeholder="Search">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="shipmentcardcontainer">
+                    <div class="bottomcards">
+                        <div class="nodata">
+                            <p>no entry found</p>
+                        </div>
+                        <div class="card">
+                            <div class="shipmentcard">
+                                <div class="shipidclass">
+                                    <p>Shipment ID</p><span><b>109669449</b> </span>
+                                </div>
+                                <div class="imagecard">
+                                    <div class="imageclass"><img src="images/globe.png" alt="globe"></div>
+                                    <div class="imageclass"><img src="images/truck.png" alt="truck"></div>
+                                    <div class="imageclass">
+                                        <div class="ontime">ON TIME</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="contentcard">
+                                <div class="arrow">
+                                    <div><img src="images/uparrow.png" alt="uparrow"></div>
+                                    <div class="destination">
+                                        <p>Origin<br></p><b><span>Sikkim,INDIA</span></b>
+                                    </div>
+                                </div>
+                                <div class="arrow">
+                                    <div><img src="images/downarrow.png" alt="downarrow"></div>
+                                    <div class="destination">
+                                        <p>Destination<br></p><b> <span>Seattle, USA</span></b>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lefttext">
+                                <div class="vendor">
+                                    <p>PO# <br><span><b>661234</b></span></p><br><br>
+                                    <p>Vendor<br><span><b> Bailey</b></span></p>
+                                </div>
+                                <div class="vendoring">
+                                    <p>PO# <br><span><b>661234</b></span></p><br><br>
+                                    <p>Vendor<br><span><b> Bailey</b></span></p>
+                                </div>
+                                <div class="planned">
+                                    <p>Planned ETA<br><span><b>Jan 27, 2021 03:42 PM EST</b></span></p>
+                                    <br><br>
+                                    <p>Current ETA<br><span><b>Jan 31, 2021 10:17 PM EST</b> </span></p>
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <img src="images/image1.png" alt="image1">
+                                <img src="images/image2.png" alt="image2">
+                                <img src="images/image3.png" alt="image3">
+                                <img src="images/image4.png" alt="image4">
+                                <img src="images/image5.png" alt="image5">
+                                <img src="images/image6.png" alt="image6">
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="shipmentcard">
+                                <div class="shipidclass">
+                                    <p>Shipment ID</p><span><b>109669412</b> </span>
+                                </div>
+                                <div class="imagecard">
+                                    <div class="imageclass"><img src="images/globe.png" alt="globe"></div>
+                                    <div class="imageclass"><img src="images/aero.png" alt="aeroplane">
+                                    </div>
+                                    <div class="imageclass">
+                                        <div class="ontime">ON TIME</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="contentcard">
+                                <div class="arrow">
+                                    <div><img src="images/uparrow.png" alt="uparrow"></div>
+                                    <div class="destination">
+                                        <p>Origin<br></p><b><span>Spain, IE</span></b>
+                                    </div>
+                                </div>
+                                <div class="arrow">
+                                    <div><img src="images/downarrow.png" alt="downarrow"></div>
+                                    <div class="destination">
+                                        <p>Destination<br></p><b> <span>Seattle, USA</span></b>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lefttext">
+                                <div class="vendor">
+                                    <p>PO# <br><span><b>661234</b></span></p><br><br>
+                                    <p>Vendor<br><span><b> Bailey</b></span></p>
+                                </div>
+                                <div class="vendoring">
+                                    <p>PO# <br><span><b>661234</b></span></p><br><br>
+                                    <p>Vendor<br><span><b> Bailey</b></span></p>
+                                </div>
+                                <div class="planned">
+                                    <p>Planned ETA<br><span><b>Jan 27, 2021 03:42 PM EST</b></span></p>
+                                    <br><br>
+                                    <p>Current ETA<br><span><b>Jan 31, 2021 10:17 PM EST</b> </span></p>
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <img src="images/image1.png" alt="image1">
+                                <img src="images/image2.png" alt="image2">
+                                <img src="images/image3.png" alt="image3">
+                                <img src="images/image4.png" alt="image4">
+                                <img src="images/image5.png" alt="image5">
+                                <img src="images/image6.png" alt="image6">
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="shipmentcard">
+                                <div class="shipidclass">
+                                    <p>Shipment ID</p><span><b>109669432</b> </span>
+                                </div>
+                                <div class="imagecard">
+                                    <div class="imageclass"><img src="images/globe.png" alt="globe"></div>
+                                    <div class="imageclass"><img src="images/ship.png" alt="ship"></div>
+                                    <div class="imageclass">
+                                        <div class="ontime">DELAYED</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="contentcard">
+                                <div class="arrow">
+                                    <div><img src="images/uparrow.png" alt="uparrow"></div>
+                                    <div class="destination">
+                                        <p>Origin<br></p><b><span>Dublin, IR</span></b>
+                                    </div>
+                                </div>
+                                <div class="arrow">
+                                    <div><img src="images/downarrow.png" alt="downarrow"></div>
+                                    <div class="destination">
+                                        <p>Destination<br></p><b> <span>Seattle, USA</span></b>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lefttext">
+                                <div class="vendor">
+                                    <p>PO# <br><span><b>661234</b></span></p><br><br>
+                                    <p>Vendor<br><span><b> Bailey</b></span></p>
+                                </div>
+                                <div class="vendoring">
+                                    <p>PO# <br><span><b>661234</b></span></p><br><br>
+                                    <p>Vendor<br><span><b> Bailey</b></span></p>
+                                </div>
+                                <div class="planned">
+                                    <p>Planned ETA<br><span><b>Jan 27, 2021 03:42 PM EST</b></span></p>
+                                    <br><br>
+                                    <p>Current ETA<br><span><b>Jan 31, 2021 10:17 PM EST</b> </span></p>
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <img src="images/image1.png" alt="image1">
+                                <img src="images/image2.png" alt="image2">
+                                <img src="images/image3.png" alt="image3">
+                                <img src="images/image4.png" alt="image4">
+                                <img src="images/image5.png" alt="image5">
+                                <img src="images/image6.png" alt="image6">
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="shipmentcard">
+                                <div class="shipidclass">
+                                    <p>Shipment ID</p><span><b>109669401</b> </span>
+                                </div>
+                                <div class="imagecard">
+                                    <div class="imageclass"><img src="images/shipmentcube.png" alt="cube"></div>
+                                    <div class="imageclass"><img src="images/aero.png" alt="aeroplane"></div>
+                                    <div class="imageclass">
+                                        <div class="ontime">RESCHEDULED</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="contentcard">
+                                <div class="arrow">
+                                    <div><img src="images/uparrow.png" alt="uparrow"></div>
+                                    <div class="destination">
+                                        <p>Origin<br></p><b><span>Limoges, FR</span></b>
+                                    </div>
+                                </div>
+                                <div class="arrow">
+                                    <div><img src="images/downarrow.png" alt="downarrow"></div>
+                                    <div class="destination">
+                                        <p>Destination<br></p><b> <span>Seattle, USA</span></b>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lefttext">
+                                <div class="vendor">
+                                    <p>PO# <br><span><b>661234</b></span></p><br><br>
+                                    <p>Vendor<br><span><b> Bailey</b></span></p>
+                                </div>
+                                <div class="vendoring">
+                                    <p>PO# <br><span><b>661234</b></span></p><br><br>
+                                    <p>Vendor<br><span><b> Bailey</b></span></p>
+                                </div>
+                                <div class="planned">
+                                    <p>Planned ETA<br><span><b>Jan 27, 2021 03:42 PM EST</b></span></p>
+                                    <br><br>
+                                    <p>Current ETA<br><span><b>Jan 31, 2021 10:17 PM EST</b> </span></p>
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <img src="images/image1.png" alt="image1">
+                                <img src="images/image2.png" alt="image2">
+                                <img src="images/image3.png" alt="image3">
+                                <img src="images/image4.png" alt="image4">
+                                <img src="images/image5.png" alt="image5">
+                                <img src="images/image6.png" alt="image6">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="riskcontainer">
+                <div class="riskheader">
+                    <div>Risk Chain</div>
+                    <img src="images/enlarge.png" alt="arrow">
+                </div>
+                <div class="riskcontent">
+                    <h1 class="ustheading">
+                        UST Omni Services
+                    </h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem
+                        dolorem ut veritatis explicabo nesciunt eius iure debitis repellendus, provident
+                        minus. Vel,
+                        minima voluptates incidunt nisi libero voluptatum itaque est suscipit consectetur
+                        fugit? Ab tenetur vel corrupti ipsa praesentium atque aspernatur modi fugaea dolore?
+                        Qui
+                        voluptatem nesciunt assumenda veniam nobis facilis saepe ex consequuntur perferendis
+                        ipsam.
+                        Velit alias soluta ipsam! Praesentium porro
+                        dolor mollitia aut natus, doloribus molestias totam tempore dignissimos eos eaque
+                        alias quia
+                        recusandae et aspernatur similique impedit necessitatibusquod repudiandae! Labore,
+                        autem nobis.
+                        Aliquam mollitia officia sapientealiquid optio minus aspernatur, harum ad eos qui
+                        incidunt
+                        fugiat?
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
